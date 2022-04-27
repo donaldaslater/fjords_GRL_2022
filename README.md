@@ -33,16 +33,16 @@ It contains the following code files (all MATLAB):
 ## Required data
 It contains the following data files (all .mat):
 
-*ice_ocean_sectors.mat* - sector polygons derived in [Slater et al. 2019](doi:10.5194/tc-13-2489-2019)  
-*all_OMG_CTD_from_csv_ver_1.3.mat* - [OMG CTD data](https://omg.jpl.nasa.gov/portal/browse/OMGEV-AXCTD/)  
-*carroll_2016_CTDs.mat* - CTD data from [Carroll et al. 2016](doi:10.1002/2016GL070170)  
-*mortensen_meire.mat* - CTD data from [Mortensen & Meire 2020](doi:10.1594/PANGAEA.921991)  
-*sarqardleq.mat* - CTD data from Mankoff et al. 2016
+*ice_ocean_sectors.mat* - sector polygons derived in [Slater et al. 2019](https://tc.copernicus.org/articles/13/2489/2019/)  
+*all_OMG_CTD_from_csv_ver_1.3.mat* - [OMG CTD data](https://omg.jpl.nasa.gov/portal/data/OMGEV-AXCTD)  
+*carroll_2016_CTDs.mat* - CTD data from [Carroll et al. 2016](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2016GL070170)  
+*mortensen_meire.mat* - CTD data from [Mortensen & Meire 2020](https://doi.pangaea.de/10.1594/PANGAEA.921991)  
+*sarqardleq.mat* - CTD data from [Straneo 2019](https://arcticdata.io/catalog/view/doi%3A10.18739%2FA2B853H78)
 
-The following files are needed but are not included in this directory:
+The following files are used but are not included in this directory:
 
-*BedMachine Greenland v4*  
-*Plotting colormaps* from https://www.mathworks.com/matlabcentral/fileexchange/28943-color-palette-tables-cpt-for-matlab (just colormaps, not 100% necessary)
+[BedMachine Greenland v4](https://nsidc.org/data/IDBMG4)  
+[Plotting colormaps](https://www.mathworks.com/matlabcentral/fileexchange/28943-color-palette-tables-cpt-for-matlab)
 
 ## Created outputs
 The code will create the following outputs
@@ -56,12 +56,12 @@ The code will create the following outputs
 ## Running order
 
 To reproduce the results, run the scripts in the order
-process_calvingfronts.m
-process_fjords.m
-process_runoff.m
-process_glaciers.m
-link_data.m
-process_plume.m
-process_seasonality.m
+*process_calvingfronts.m*  
+*process_fjords.m*  
+*process_runoff.m*  
+*process_glaciers.m*  
+*link_data.m*  
+*process_plume.m*  
+*process_seasonality.m*  
 
-To make the plots in the paper and SI, run makeplots.m and/or fjord_plots.m. To make the data table run maketable.m
+To make the plots in the paper and SI, run *makeplots.m* and/or *fjord_plots.m*. To make the data table run *maketable.m*.

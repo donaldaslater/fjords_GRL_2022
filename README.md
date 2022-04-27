@@ -29,6 +29,8 @@ It contains the following code files (all MATLAB):
 *customlegend.m* - simple code for custom plot legend  
 *errplot.m* - a simple custom plotting function called in makeplots.m  
 *plotbox.m* - another simple custom plotting function called in makeplots.m  
+*saveplot.m* - function for saving plots as png
+*saveplot_pdf.m* - function for saving plots as pdf
 
 ## Required data
 It contains the following data files (all .mat):

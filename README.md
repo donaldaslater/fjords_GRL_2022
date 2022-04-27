@@ -26,7 +26,7 @@ It contains the following code files (all MATLAB):
 
 *polarstereo_inv.m* - converts polar stereographic to lat/lon  
 *latlon2utm.m* - converts lat/lon to polar stereographic  
-*custom_legend.m* - simple code for custom plot legend  
+*customlegend.m* - simple code for custom plot legend  
 *errplot.m* - a simple custom plotting function called in makeplots.m  
 *plotbox.m* - another simple custom plotting function called in makeplots.m  
 
